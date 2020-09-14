@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Meta Gallery </title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<div class="galleryContainer">
+    <div class="slideShowContainer">
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+        <div class="imageHolder">
+            <img src="images/img_1.jpg">
+            <p class="captionText">Man is a parrot in the House of History; he listens and then he repeats the same crap over and over!</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/img_2.jpg">
+            <p class="captionText"> Forget not that the earth delights to feel your bare feet and the winds long to play with your hair. </p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/img_3.jpg">
+            <p class="captionText">Nature's great masterpiece, an elephant; the only harmless great thing.  </p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/img_4.jpg">
+            <p class="captionText">The reason birds can fly and we can't is simply because they have perfect faith, for to have faith is to have wings.</p>
+        </div>
+    </div>
+    <div id="smallSlidesContainer"></div>
+</div>
+<script src="myScript.js"></script>
+</body>
+</html>
